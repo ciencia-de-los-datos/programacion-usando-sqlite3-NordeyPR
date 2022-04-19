@@ -40,3 +40,14 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT 
+                    K0,
+                    c16
+                FROM 
+                    tbl1 
+                 WHERE 
+                    K0 LIKE 'E%' AND c16 LIKE 'E%'
+                    OR K0 LIKE 'B%' AND c16 LIKE 'B%'
+                    OR K0 LIKE 'C%' AND c16 LIKE 'C%'
+                    OR K0 LIKE 'A%' AND c16 LIKE 'A%'
+                    OR K0 LIKE 'D%' AND c16 LIKE 'D%'
